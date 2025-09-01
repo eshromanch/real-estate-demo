@@ -125,7 +125,7 @@ export function AboutSection() {
           </motion.div>
 
           <h2 className="text-5xl md:text-6xl lg:text-7xl mb-6 text-slate-900 leading-tight">
-            Building Bangladesh's
+            Building Bangladesh&apos;s
             <motion.span
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -156,7 +156,7 @@ export function AboutSection() {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="text-xl text-slate-600 mb-8 leading-relaxed"
               >
-                Since 2008, LuxeEstates has been at the forefront of Bangladesh's real estate revolution, 
+                Since 2008, LuxeEstates has been at the forefront of Bangladesh&apos;s real estate revolution, 
                 creating modern residential and commercial spaces that enhance urban living standards 
                 across Dhaka, Chittagong, and other major cities.
               </motion.p>

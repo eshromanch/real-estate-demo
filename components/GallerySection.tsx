@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'motion/react';
 import { useState } from 'react';
-import { Camera, Grid, Maximize2, X, ChevronLeft, ChevronRight, MapPin, Calendar } from 'lucide-react';
+import { Camera, Grid, Maximize2, X, ChevronLeft, ChevronRight, MapPin } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { ImageWithFallback } from './figma/ImageWithFallback';

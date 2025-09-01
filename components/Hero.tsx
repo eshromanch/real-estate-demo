@@ -266,7 +266,7 @@ export function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="group border-white/20 text-white hover:bg-white/5 px-8 py-4 rounded-full backdrop-blur-sm relative overflow-hidden"
+              className="group border-white/20 text-black hover:bg-white/5 hover:text-white px-8 py-4 rounded-full backdrop-blur-sm relative overflow-hidden"
             >
               <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
               Watch Our Story
@@ -281,7 +281,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 2 }}
           className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto"
         >
-          {heroStats.map((stat, index) => (
+          {heroStats.map((stat) => (
             <motion.div
               key={stat.label}
               initial={{ scale: 0, opacity: 0 }}

@@ -1,10 +1,10 @@
 'use client';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
-import { Star, Quote, ChevronLeft, ChevronRight, Users, Building, Heart } from 'lucide-react';
+import { Star, Quote, ChevronLeft, ChevronRight, Building, Heart } from 'lucide-react';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
-import { Avatar } from './ui/avatar';
+
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const testimonials = [
@@ -333,7 +333,7 @@ export function TestimonialsSection() {
                       className="mb-6"
                     >
                       <p className="text-lg md:text-xl leading-relaxed text-center md:text-left italic">
-                        "{testimonials[currentTestimonial].content}"
+                        &ldquo;{testimonials[currentTestimonial].content}&rdquo;
                       </p>
                     </motion.div>
 
@@ -390,7 +390,7 @@ export function TestimonialsSection() {
               Trusted by Leading Organizations
             </h3>
             <p className="text-slate-300 max-w-2xl mx-auto">
-              We're proud to serve a diverse range of clients from healthcare, 
+              We&apos;re proud to serve a diverse range of clients from healthcare, 
               technology, education, and business sectors across Bangladesh.
             </p>
           </div>
@@ -431,7 +431,7 @@ export function TestimonialsSection() {
           </h3>
           <p className="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">
             Experience the LuxeEstates difference. Let us help you find your perfect 
-            property or investment opportunity in Bangladesh's thriving real estate market.
+                          property or investment opportunity in Bangladesh&apos;s thriving real estate market.
           </p>
           <motion.div
             whileHover={{ scale: 1.05 }}

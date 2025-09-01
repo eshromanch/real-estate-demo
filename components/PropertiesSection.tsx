@@ -110,7 +110,7 @@ export function PropertiesSection() {
             className="text-xl text-slate-600 max-w-2xl mx-auto"
           >
             Discover our carefully curated collection of exceptional properties 
-            in the world's most desirable locations.
+            in the world&apos;s most desirable locations.
           </motion.p>
         </motion.div>
 

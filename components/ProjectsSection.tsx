@@ -171,7 +171,7 @@ export function ProjectsSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
           >
-            Explore our portfolio of groundbreaking developments that are reshaping Bangladesh's 
+            Explore our portfolio of groundbreaking developments that are reshaping Bangladesh&apos;s 
             architectural landscape with innovative design and sustainable construction practices.
           </motion.p>
         </motion.div>
